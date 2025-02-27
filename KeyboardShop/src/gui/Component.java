@@ -20,8 +20,8 @@ public class Component extends MainPanel {
         //font color
         kbName.setForeground(CommonConstant.TEXT_COLOR);
 
-        //font size
-        kbName.setFont(new Font("Segoe UI",Font.BOLD,14));
+        //font customize
+        kbName.setFont(UIManager.getFont("Label.font"));
 
         //center text
         kbName.setHorizontalAlignment(SwingConstants.LEFT);
@@ -31,9 +31,9 @@ public class Component extends MainPanel {
 
         //create KEYBOARD SHOP text
         JLabel kbBrand = new JLabel("KEYBOARD SHOP");
-        kbBrand.setBounds(450,5,400,30);
-        kbBrand.setForeground(CommonConstant.kbHEADER_COLOR);
-        kbBrand.setFont(new Font("Junkshop LaekLai",Font.PLAIN,30));
+        kbBrand.setBounds(430,0,400,50);
+        kbBrand.setForeground(CommonConstant.KBHEADER_COLOR);
+        kbBrand.setFont(new Font("FCVision-HeavyCondensedNoncml",Font.PLAIN,40));
         kbBrand.setHorizontalAlignment(SwingConstants.CENTER);
         add(kbBrand);
 
@@ -42,14 +42,14 @@ public class Component extends MainPanel {
         kbNameBox.setBounds(250,10,150,25);
         kbNameBox.setBackground(CommonConstant.BOX_COLOR);
         kbNameBox.setForeground(CommonConstant.TEXT_COLOR);
-        kbNameBox.setFont(new Font("Segoe UI",Font.PLAIN,14));
+        kbNameBox.setFont(UIManager.getFont("Label.font"));
         add(kbNameBox);
 
         //create keyboard brand label
         JLabel kbHEADER = new JLabel("Brand");
         kbHEADER.setBounds(100,60,100,30);
         kbHEADER.setForeground(CommonConstant.TEXT_COLOR);
-        kbHEADER.setFont(new Font("Segoe UI",Font.BOLD,14));
+        kbHEADER.setFont(UIManager.getFont("Label.font"));
         kbHEADER.setHorizontalAlignment(SwingConstants.LEFT);
         add(kbHEADER);
 
@@ -58,14 +58,14 @@ public class Component extends MainPanel {
         kbBrandBox.setBounds(250,60,150,25);
         kbBrandBox.setBackground(CommonConstant.BOX_COLOR);
         kbBrandBox.setForeground(CommonConstant.TEXT_COLOR);
-        kbBrandBox.setFont(new Font("Segoe UI",Font.PLAIN,14));
+        kbBrandBox.setFont(UIManager.getFont("Label.font"));
         add(kbBrandBox);
 
         //create keyboard layout label
         JLabel kbLayout = new JLabel("Layout");
         kbLayout.setBounds(100,110,100,30);
         kbLayout.setForeground(CommonConstant.TEXT_COLOR);
-        kbLayout.setFont(new Font("Segoe UI",Font.BOLD,14));
+        kbLayout.setFont(UIManager.getFont("Label.font"));
         kbLayout.setHorizontalAlignment(SwingConstants.LEFT);
         add(kbLayout);
 
@@ -74,14 +74,14 @@ public class Component extends MainPanel {
         kbLayoutBox.setBounds(250,110,150,25);
         kbLayoutBox.setBackground(CommonConstant.BOX_COLOR);
         kbLayoutBox.setForeground(CommonConstant.TEXT_COLOR);
-        kbLayoutBox.setFont(new Font("Segoe UI",Font.PLAIN,14));
+        kbLayoutBox.setFont(UIManager.getFont("Label.font"));
         add(kbLayoutBox);
 
         //create keyboard switch label
         JLabel kbSwitch = new JLabel("Switch Type");
         kbSwitch.setBounds(100,160,100,30);
         kbSwitch.setForeground(CommonConstant.TEXT_COLOR);
-        kbSwitch.setFont(new Font("Segoe UI",Font.BOLD,14));
+        kbSwitch.setFont(UIManager.getFont("Label.font"));
         kbSwitch.setHorizontalAlignment(SwingConstants.LEFT);
         add(kbSwitch);
 
@@ -90,14 +90,14 @@ public class Component extends MainPanel {
         kbSwitchBox.setBounds(250,160,150,25);
         kbSwitchBox.setBackground(CommonConstant.BOX_COLOR);
         kbSwitchBox.setForeground(CommonConstant.TEXT_COLOR);
-        kbSwitchBox.setFont(new Font("Segoe UI",Font.PLAIN,14));
+        kbSwitchBox.setFont(UIManager.getFont("Label.font"));
         add(kbSwitchBox);
 
         //create keyboard connection label
         JLabel kbConnection = new JLabel("Connection Type");
         kbConnection.setBounds(100,210,200,30);
         kbConnection.setForeground(CommonConstant.TEXT_COLOR);
-        kbConnection.setFont(new Font("Segoe UI",Font.BOLD,14));
+        kbConnection.setFont(UIManager.getFont("Label.font"));
         kbConnection.setHorizontalAlignment(SwingConstants.LEFT);
         add(kbConnection);
 
@@ -106,14 +106,14 @@ public class Component extends MainPanel {
         kbConnectionBox.setBounds(250,210,150,25);
         kbConnectionBox.setBackground(CommonConstant.BOX_COLOR);
         kbConnectionBox.setForeground(CommonConstant.TEXT_COLOR);
-        kbConnectionBox.setFont(new Font("Segoe UI",Font.PLAIN,14));
+        kbConnectionBox.setFont(UIManager.getFont("Label.font"));
         add(kbConnectionBox);
 
         //create keyboard price label
         JLabel kbPrice = new JLabel("Price");
         kbPrice.setBounds(100,260,200,30);
         kbPrice.setForeground(CommonConstant.TEXT_COLOR);
-        kbPrice.setFont(new Font("Segoe UI",Font.BOLD,14));
+        kbPrice.setFont(UIManager.getFont("Label.font"));
         kbPrice.setHorizontalAlignment(SwingConstants.LEFT);
         add(kbPrice);
 
@@ -122,14 +122,14 @@ public class Component extends MainPanel {
         kbPriceBox.setBounds(250,260,150,25);
         kbPriceBox.setBackground(CommonConstant.BOX_COLOR);
         kbPriceBox.setForeground(CommonConstant.TEXT_COLOR);
-        kbPriceBox.setFont(new Font("Segoe UI",Font.PLAIN,14));
+        kbPriceBox.setFont(UIManager.getFont("Label.font"));
         add(kbPriceBox);
 
         //create keyboard stock label
         JLabel kbStock = new JLabel("Stock");
         kbStock.setBounds(100,310,200,30);
         kbStock.setForeground(CommonConstant.TEXT_COLOR);
-        kbStock.setFont(new Font("Segoe UI",Font.BOLD,14));
+        kbStock.setFont(UIManager.getFont("Label.font"));
         kbStock.setHorizontalAlignment(SwingConstants.LEFT);
         add(kbStock);
 
@@ -138,12 +138,12 @@ public class Component extends MainPanel {
         kbStockBox.setBounds(250,310,150,25);
         kbStockBox.setBackground(CommonConstant.BOX_COLOR);
         kbStockBox.setForeground(CommonConstant.TEXT_COLOR);
-        kbStockBox.setFont(new Font("Segoe UI",Font.PLAIN,14));
+        kbStockBox.setFont(UIManager.getFont("Label.font"));
         add(kbStockBox);
 
         //create add button
         JButton addButton = new JButton("Add");
-        addButton.setFont(new Font("Segoe UI",Font.BOLD,14));
+        addButton.setFont(UIManager.getFont("Label.font"));
 
         //change cursor to hand when hover over button
         addButton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
@@ -155,7 +155,7 @@ public class Component extends MainPanel {
 
         //create delete button
         JButton delButton = new JButton("Delete");
-        delButton.setFont(new Font("Segoe UI",Font.BOLD,14));
+        delButton.setFont(UIManager.getFont("Label.font"));
         delButton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         delButton.setBackground(CommonConstant.DELETEBUTTON_COLOR);
         delButton.setForeground(Color.BLACK);
@@ -164,7 +164,7 @@ public class Component extends MainPanel {
 
         //create clear button
         JButton editButton = new JButton("Clear");
-        editButton.setFont(new Font("Segoe UI",Font.BOLD,14));
+        editButton.setFont(UIManager.getFont("Label.font"));
         editButton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         editButton.setBackground(Color.GRAY);
         editButton.setForeground(Color.BLACK);
