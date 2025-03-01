@@ -24,6 +24,6 @@ public class MainPanel extends JFrame {
         setResizable(false);
 
         //background color
-        getContentPane().setBackground(CommonConstant.BG_COLOR);
+        getContentPane().setBackground(ColorCode.BG_COLOR);
     }
 }

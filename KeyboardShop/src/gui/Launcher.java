@@ -7,7 +7,7 @@ public class Launcher {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                //make visible
+                // Make visible
                 new Component().setVisible(true);
             }
         });
